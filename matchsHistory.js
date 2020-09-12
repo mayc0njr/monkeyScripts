@@ -6,6 +6,7 @@
 // @downloadURL https://github.com/mayc0njr/trophyManager/blob/master/matchsHistory.js
 // @namespace   https://trophymanager.com
 // @include     https://trophymanager.com/league/
+// @match     https://trophymanager.com/league/
 // @license     MIT
 // ==/UserScript==
 
