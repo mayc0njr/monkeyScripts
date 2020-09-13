@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        TM League Match History
-// @version     0.3 <2020-12-09>
+// @version     0.4 <2020-12-09>
 // @description Adds last match results and link to the matchs in the league table.
 // @author      Maycon Miranda - https://github.com/mayc0njr
 // @downloadURL https://github.com/mayc0njr/trophyManager/blob/master/matchsHistory.js
