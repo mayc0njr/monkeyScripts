@@ -22,9 +22,10 @@
     const LAST_MATCHES = 5;
     const LAST_HEADER = "Últimos";
     //==================================================
-    const COUNTRY = 0;
-    const DIVISION = 1;
-    const GROUP = 2;
+    const LEAGUE = 1;
+    const COUNTRY = 2;
+    const DIVISION = 3;
+    const GROUP = 4;
     const FIXTURES = '/ajax/fixtures.ajax.php';
     const WIN = 'W';
     const DRAW = 'D';
@@ -46,20 +47,29 @@
 
         header.append(streak);
     }
-
     function generateMatchsHistory() {
         let url = $('.content_menu .calendar').attr('href').split(`/`).filter(function (el) {
             return el.length > 0
         });
         console.log(url);
-        while (url.length > 3)
-            url.shift();
-        $.post(FIXTURES,{'type':'league','var1':url[COUNTRY],'var2':url[DIVISION],'var3':url[GROUP]},function(data){
-        if(data != null)
-        {
-            applyResults(data);
-        }
-    },'json');
+        var postobj = {
+            'type': url[LEAGUE],
+            'var1': url[COUNTRY],
+            'var2': url.length > (DIVISION) ? url[DIVISION] : '',
+            'var3': url.length > (GROUP) ? url[GROUP] : ''
+        };
+        console.log(postobj);
+        $.post(FIXTURES,{
+            'type': url[LEAGUE],
+            'var1': url[COUNTRY],
+            'var2': url.length > (DIVISION) ? url[DIVISION] : '',
+            'var3': url.length > (GROUP) ? url[GROUP] : ''
+        },function(data){
+            if(data != null)
+            {
+                applyResults(data);
+            }
+        },'json');
     }
 
     function adjustHighlight(row) {
