@@ -16,11 +16,13 @@
 
     const columnAdjustment = 50;
     const CIRCLE = '\u2b24';
-    const WIN_COLOR = '#00ff00';
+    const WIN_COLOR = '#0fdf0f';
     const DRAW_COLOR = '#bfbfbf';
-    const LOSE_COLOR = '#ff0000';
+    const LOSE_COLOR = '#d01f0f';
     const LAST_MATCHES = 5;
     const LAST_HEADER = "Últimos";
+    const FONT_SIZE = "xx-small";
+    const LETTER_SPACING = "2px";
     //==================================================
     const LEAGUE = 1;
     const COUNTRY = 2;
@@ -144,6 +146,9 @@
             $(streak).addClass('highlight_td_right_std');
             $(streak).css('display', 'flex');
             $(streak).css('justify-content','space-between');
+            $(streak).css('font-size', FONT_SIZE);
+            $(streak).css('letter-spacing', LETTER_SPACING);
+          
             $(streak).css('cursor', 'default');
             $(streak).disableSelection();
             for (const result of results) {
