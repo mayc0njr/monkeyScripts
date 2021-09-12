@@ -2,9 +2,9 @@
 // @name        TM League Match History
 // @version     1.0
 // @description Add last match results and link to the matchs in the league table.
-// @author      Maycon Miranda - https://github.com/mayc0njr
+// @author      Irreal Madrid FC. Club ID: 4402745
+// @namespace   https://github.com/mayc0njr/trophyManager/
 // @downloadURL https://github.com/mayc0njr/trophyManager/blob/master/matchsHistory.js
-// @namespace   https://trophymanager.com
 // @include     https://trophymanager.com/league/*
 // @license     MIT
 // ==/UserScript==

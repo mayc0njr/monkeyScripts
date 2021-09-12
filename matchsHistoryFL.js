@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name        TM League Match History
-// @version     0.0.1
-// @description (WIP) Add last match results and link to the matchs in the league table.
-// @author      Maycon Miranda - https://github.com/mayc0njr
+// @name        TM Friendly League Match History
+// @version     0.1
+// @description (WIP) Add last match results and link to the matchs in the friendly league table.
+// @author      Irreal Madrid FC. Club ID: 4402745
+// @namespace   https://github.com/mayc0njr/trophyManager/
 // @downloadURL https://github.com/mayc0njr/trophyManager/blob/master/matchsHistoryFL.js
-// @namespace   https://trophymanager.com
 // @match       https://trophymanager.com/friendly-league/
 // @license     MIT
 // ==/UserScript==
