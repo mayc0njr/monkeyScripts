@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name        TM Friendly League Match History
+// @name:pt     Histórico de partidas para Liga Amistosa
 // @version     0.1
 // @description (WIP) Add last match results and link to the matchs in the friendly league table.
+// @description:pt (WIP) Adiciona os últimos jogos e o link para o jogo na tabela da Liga Amistosa.
 // @author      Irreal Madrid FC. Club ID: 4402745
 // @namespace   https://github.com/mayc0njr/trophyManager/
 // @downloadURL https://github.com/mayc0njr/trophyManager/blob/master/matchsHistoryFL.js
