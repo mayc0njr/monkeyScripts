@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name        TM League Match History
-// @version     1.0
-// @description Add last match results and link to the matchs in the league table.
+// @version     0.0.1
+// @description (WIP) Add last match results and link to the matchs in the league table.
 // @author      Maycon Miranda - https://github.com/mayc0njr
-// @downloadURL https://github.com/mayc0njr/trophyManager/blob/master/matchsHistory.js
+// @downloadURL https://github.com/mayc0njr/trophyManager/blob/master/matchsHistoryFL.js
 // @namespace   https://trophymanager.com
-// @include     https://trophymanager.com/league/*
+// @match       https://trophymanager.com/friendly-league/
 // @license     MIT
 // ==/UserScript==
 
@@ -21,7 +21,7 @@
     const LAST_HEADER = "Últimos"; // Last matches text
     const FONT_SIZE = "xx-small"; // size of the last match ball
     const LETTER_SPACING = "2px"; // Space between last matches balls
-
+    
     //==================================================
     // Functional variables, used to get and process match data.
     const LEAGUE = 1;
@@ -41,7 +41,7 @@
     }
 
     function addTableHeader() {
-        let header = $('#overall_table thead tr');
+        let header = $('#league_table tbody tr').first();
         let streak = document.createElement('TH');
         streak.textContent = LAST_HEADER;
         $(streak).addClass('align_center');
@@ -131,7 +131,7 @@
 
     function applyResults(data) {
         let fixtures = filterFixtures(data);
-        let teams = $('#overall_table tbody td a');
+        let teams = $('#league_table tbody td a');
         teams.each(function(index, team) {
             if(team.text.length == 0)
                 return;
