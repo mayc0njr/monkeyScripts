@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name        TM League Match History (Spoilers)
-// @name:pt     TM Histórico de partidas para Liga (Spoilers)
+// @name        TM League Match History With Spoilers
+// @name:pt     TM Histórico de partidas para Liga Com Spoilers
 // @version     1.1
 // @description Add last match results and link to the matchs in the league table.
 // @description:pt diciona os últimos jogos e o link para o jogo na tabela da Liga.
