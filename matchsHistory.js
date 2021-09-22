@@ -20,7 +20,7 @@
      * 1: Show the match but not the color/result.
      * 2: Show the match only after it's end.
      */
-    const WAIT_TILL_END = 1;
+    const WAIT_TILL_END = 0;
 
     const LAST_MATCHES = 5; // number of last matches displayed
     const columnAdjustment = 50; //adjust the size of the middle block of the page (the one that contains the league table)
