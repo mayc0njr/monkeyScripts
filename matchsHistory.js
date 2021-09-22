@@ -5,7 +5,7 @@
 // @description Add last match results and link to the matchs in the league table.
 // @description:pt diciona os últimos jogos e o link para o jogo na tabela da Liga.
 // @author      Irreal Madrid FC. Club ID: 4402745
-// @namespace   https://github.com/mayc0njr/trophyManager/
+// @namespace   https://github.com/mayc0njr/trophyManager/spoilers/
 // @downloadURL https://github.com/mayc0njr/trophyManager/blob/spoilers/matchsHistory.js
 // @include     https://trophymanager.com/league/*
 // @license     MIT
