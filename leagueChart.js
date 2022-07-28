@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name        TM League Match Chart by rounds
+// @name        TM League Chart by rounds
 // @name:pt     TM Gráfico da liga por rodadas.
-// @version     0.1 - 24/07/2022
+// @version     0.2 - 28/07/2022
 // @description (WIP) Generates a chart with the league ranking and changes by round.
 // @description:pt (WIP) Gera um gráfico com a classificação da liga e alterações por rodada.
 // @author      Irreal Madrid FC. Club ID: 4402745
@@ -9,7 +9,7 @@
 // @downloadURL https://github.com/mayc0njr/trophyManager/blob/spoilers/matchsHistory.js
 // @include     https://trophymanager.com/league/*
 // @license     MIT
-// @require     https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.js
+// @require     https://cdn.jsdelivr.net/npm/chart.js@3.8.2/dist/chart.min.js
 // ==/UserScript==
 
 (function () {
