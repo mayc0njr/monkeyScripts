@@ -108,15 +108,35 @@
                     position: 'bottom'
                 },
                 scales: {
+                    xAxes: [
+                        {
+                            ticks: {
+                                min: 1,
+                                max: 34,
+                            },
+                        }],
                     x: {
                         ticks: {
-                            stepSize: 1
+                            stepSize: 1,
+                            min: 1,
+                            max: 34
                         }
                     },
+                    yAxes: [
+                        {
+                            ticks: {
+                                min: 1,
+                                max: 18,
+                                maxTicksLimit: 18,
+                            },
+                        },
+                    ],
                     y: {
                         beginAtZero: false,
                         ticks: {
-                            stepSize: 1
+                            stepSize: 1,
+                            min: 1,
+                            max: 18
                         }
                     }
                 }

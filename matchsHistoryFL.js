@@ -1,14 +1,15 @@
 // ==UserScript==
-// @name        TM Friendly League Match History
-// @name:pt     TM Histórico de partidas para Liga Amistosa
-// @version     0.1
-// @description (WIP) Add last match results and link to the matchs in the friendly league table.
-// @description:pt (WIP) Adiciona os últimos jogos e o link para o jogo na tabela da Liga Amistosa.
-// @author      Irreal Madrid FC. Club ID: 4402745
-// @namespace   https://github.com/mayc0njr/trophyManager/
-// @downloadURL https://github.com/mayc0njr/trophyManager/blob/master/matchsHistoryFL.js
-// @match       https://trophymanager.com/friendly-league/
-// @license     MIT
+// @name                TM Friendly League Match History
+// @name:pt             TM Histórico de partidas para Liga Amistosa
+// @version             0.2.1 - 28/09/22
+// @description         (WIP) Add last match results and link to the matchs in the friendly league table.
+// @description:pt      (WIP) Adiciona os últimos jogos e o link para o jogo na tabela da Liga Amistosa.
+// @author              Irreal Madrid FC. Club ID: 4402745
+// @namespace           https://github.com/mayc0njr/trophyManager/
+// @downloadURL         https://github.com/mayc0njr/trophyManager/blob/master/matchsHistoryFL.js
+// @match               https://trophymanager.com/friendly-league/
+// @match               https://trophymanager.com/friendly-league/*/
+// @license             MIT
 // ==/UserScript==
 
 (function () {
@@ -19,7 +20,7 @@
      * 1: Show the match but not the color/result.
      * 2: Show the match only after it's end.
      */
-    const WAIT_TILL_END = 1;
+    const WAIT_TILL_END = 0;
 
     const LAST_MATCHES = 5; // number of last matches displayed
     const columnAdjustment = 50; //adjust the size of the middle block of the page (the one that contains the league table)
@@ -31,7 +32,6 @@
     const ONGOING_COLOR = '#ffbf3f' //RGB color for ONGOING MATCHES #ffff7f
     const LAST_HEADER = "Últimos"; // Last matches text
     const FONT_SIZE = "xx-small"; // size of the last match ball
-    const LETTER_SPACING = "2px"; // Space between last matches balls
     
     //==================================================
     // Functional variables, used to get and process match data.
@@ -182,7 +182,6 @@
             $(streak).css('display', 'flex');
             $(streak).css('justify-content','space-between');
             $(streak).css('font-size', FONT_SIZE);
-            $(streak).css('letter-spacing', LETTER_SPACING);
           
             $(streak).css('cursor', 'default');
             $(streak).disableSelection();
