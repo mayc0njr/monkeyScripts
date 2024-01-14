@@ -6,7 +6,7 @@
 // @description:pt (WIP) Gera um gráfico com a classificação da liga amistosa e alterações por rodada.
 // @author      Irreal Madrid FC. Club ID: 4402745
 // @namespace   https://github.com/mayc0njr/trophyManager/spoilers/
-// @downloadURL https://github.com/mayc0njr/trophyManager/blob/spoilers/matchsHistory.js
+// @downloadURL https://raw.githubusercontent.com/mayc0njr/monkeyScripts/master/trophyManager/friendlyLeagueChart.js
 // @include     https://trophymanager.com/friendly-league/*
 // @license     MIT
 // @require     https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js
