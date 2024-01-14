@@ -6,7 +6,7 @@
 // @description:pt (WIP) Gera um gráfico com a classificação da liga e alterações por rodada.
 // @author      Irreal Madrid FC. Club ID: 4402745
 // @namespace   https://github.com/mayc0njr/trophyManager/spoilers/
-// @downloadURL https://greasyfork.org/pt-BR/scripts/451964-tm-league-chart-by-rounds
+// @downloadURL https://raw.githubusercontent.com/mayc0njr/monkeyScripts/master/trophyManager/leagueChart.js
 // @include     https://trophymanager.com/league/*
 // @license     MIT
 // @require     https://cdn.jsdelivr.net/npm/chart.js@3.8.2/dist/chart.min.js
