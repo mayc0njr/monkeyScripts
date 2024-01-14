@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name        TM League Chart by rounds
 // @name:pt     TM Gráfico da liga por rodadas.
-// @version     0.3 - 14/01/2024
+// @version     0.4 - 14/01/2024
 // @description (WIP) Generates a chart with the league ranking and changes by round.
 // @description:pt (WIP) Gera um gráfico com a classificação da liga e alterações por rodada.
 // @author      Irreal Madrid FC. Club ID: 4402745
 // @namespace   https://github.com/mayc0njr/trophyManager/spoilers/
-// @downloadURL https://github.com/mayc0njr/trophyManager/blob/spoilers/matchsHistory.js
+// @downloadURL https://greasyfork.org/pt-BR/scripts/451964-tm-league-chart-by-rounds
 // @include     https://trophymanager.com/league/*
 // @license     MIT
 // @require     https://cdn.jsdelivr.net/npm/chart.js@3.8.2/dist/chart.min.js
