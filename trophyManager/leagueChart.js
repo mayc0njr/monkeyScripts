@@ -38,7 +38,10 @@
 
         let team1Goals = team1.goalsFor - team1.goalsAgainst;
         let team2Goals = team2.goalsFor - team2.goalsAgainst;
-        return team1Goals - team2Goals;
+        let goalsDifference = team1Goals - team2Goals;
+        if(goalsDifference != 0)
+            return goalsDifference;
+        return team1.goalsFor - team2.goalsFor;
     }
 
     function getRandomColor() {
