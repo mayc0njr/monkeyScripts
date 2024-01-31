@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name                TM Friendly League Match History
 // @name:pt             TM Histórico de partidas para Liga Amistosa
-// @version             0.2.1 - 28/09/22
+// @version             0.2.2 - 30/01/2024
 // @description         (WIP) Add last match results and link to the matchs in the friendly league table.
 // @description:pt      (WIP) Adiciona os últimos jogos e o link para o jogo na tabela da Liga Amistosa.
 // @author              Irreal Madrid FC. Club ID: 4402745
