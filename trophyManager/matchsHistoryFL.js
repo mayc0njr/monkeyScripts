@@ -8,7 +8,7 @@
 // @namespace           https://github.com/mayc0njr/trophyManager/
 // @downloadURL         https://github.com/mayc0njr/trophyManager/blob/master/matchsHistoryFL.js
 // @match               https://trophymanager.com/friendly-league/
-// @match               https://trophymanager.com/friendly-league/*/
+// @match               https://trophymanager.com/friendly-league/*
 // @license             MIT
 // ==/UserScript==
 
